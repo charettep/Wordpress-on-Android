@@ -31,3 +31,4 @@ This repository provides a single script that installs Docker, MariaDB, WordPres
 - Visit the hostname you provided from any browser to complete WordPress’s initial setup wizard (takes about five seconds).
 - The services are registered as systemd units, so the site starts whenever the Terminal app is open and stops when you close it.
 - Re-run the script any time you need to update or reinstall the stack; it is safe to execute multiple times.
+- The script generates credentials autonomously and saves them in `~/wordpress-docker/.env` (the script prints the exact `.env` path at the end).
